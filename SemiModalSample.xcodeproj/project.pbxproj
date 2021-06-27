@@ -41,6 +41,8 @@
 		8CC215632688B508009537F9 /* AppRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC215622688B508009537F9 /* AppRatingViewController.swift */; };
 		8CC215662688BD81009537F9 /* ShareAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC215652688BD81009537F9 /* ShareAppViewController.swift */; };
 		8CC215692688BDD4009537F9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC215682688BDD4009537F9 /* SettingsViewController.swift */; };
+		8CC2156D268926FE009537F9 /* BottomSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2156C268926FE009537F9 /* BottomSheet.storyboard */; };
+		8CC215702689270C009537F9 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2156F2689270C009537F9 /* BottomSheetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,8 @@
 		8CC215622688B508009537F9 /* AppRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRatingViewController.swift; sourceTree = "<group>"; };
 		8CC215652688BD81009537F9 /* ShareAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppViewController.swift; sourceTree = "<group>"; };
 		8CC215682688BDD4009537F9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8CC2156C268926FE009537F9 /* BottomSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BottomSheet.storyboard; sourceTree = "<group>"; };
+		8CC2156F2689270C009537F9 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		F87B34481DECC58C24D63E5F /* Pods-SemiModalSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemiModalSample.debug.xcconfig"; path = "Target Support Files/Pods-SemiModalSample/Pods-SemiModalSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +150,8 @@
 				8CC2154626878114009537F9 /* HalfModal */,
 				8CC2154E26878276009537F9 /* Animation */,
 				8CC215572688696A009537F9 /* SideMenu */,
+				8CC2156C268926FE009537F9 /* BottomSheet.storyboard */,
+				8CC2156F2689270C009537F9 /* BottomSheetViewController.swift */,
 			);
 			path = SemiModalSample;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 				8CC2153926877B71009537F9 /* Present.storyboard in Resources */,
 				8CC2150D268771F5009537F9 /* SemiModal.storyboard in Resources */,
 				8CC214DF26844ACA009537F9 /* SemiModalAnimator.storyboard in Resources */,
+				8CC2156D268926FE009537F9 /* BottomSheet.storyboard in Resources */,
 				8CC2153326877A94009537F9 /* HalfModal.storyboard in Resources */,
 				8CC215062687710B009537F9 /* Presenting.storyboard in Resources */,
 			);
@@ -380,6 +387,7 @@
 				8CC215632688B508009537F9 /* AppRatingViewController.swift in Sources */,
 				8CC214C5268449F9009537F9 /* AppDelegate.swift in Sources */,
 				8CC2151326877307009537F9 /* SemiModalPresentationManager.swift in Sources */,
+				8CC215702689270C009537F9 /* BottomSheetViewController.swift in Sources */,
 				8CC215162687732D009537F9 /* SemiModalPresentationController.swift in Sources */,
 				8CC214E526844B98009537F9 /* Router.swift in Sources */,
 				8CC2154C26878196009537F9 /* AnimationViewController.swift in Sources */,

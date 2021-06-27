@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4T7-lt-E2N">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bottom Sheet View Controller-->
+        <scene sceneID="zHa-n1-Cab">
+            <objects>
+                <viewController id="4T7-lt-E2N" customClass="BottomSheetViewController" customModule="SemiModalSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Bm-Nb-ZXu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m0b-ba-NAn">
+                                <rect key="frame" x="16" y="846" width="382" height="0.0"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n3M-2t-9HO">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="7uf-qM-qJe"/>
+                                    <constraint firstItem="n3M-2t-9HO" firstAttribute="leading" secondItem="m0b-ba-NAn" secondAttribute="leading" id="D7R-vg-Xc4"/>
+                                    <constraint firstAttribute="bottom" secondItem="n3M-2t-9HO" secondAttribute="bottom" id="Jyg-44-qQw"/>
+                                    <constraint firstItem="n3M-2t-9HO" firstAttribute="top" secondItem="m0b-ba-NAn" secondAttribute="top" id="ulq-3i-n0b"/>
+                                    <constraint firstAttribute="trailing" secondItem="n3M-2t-9HO" secondAttribute="trailing" id="wg9-zZ-CTI"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga8-Ga-rlW">
+                                <rect key="frame" x="16" y="782" width="200" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="LbP-Js-4zt"/>
+                                    <constraint firstAttribute="height" constant="48" id="T0q-Ls-FJP"/>
+                                </constraints>
+                                <state key="normal" title="Show / Hide">
+                                    <color key="titleColor" systemColor="systemPurpleColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HWE-Qy-9PO"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="ga8-Ga-rlW" firstAttribute="leading" secondItem="HWE-Qy-9PO" secondAttribute="leading" constant="16" id="3O1-i5-JTM"/>
+                            <constraint firstItem="m0b-ba-NAn" firstAttribute="leading" secondItem="HWE-Qy-9PO" secondAttribute="leading" constant="16" id="A2H-IZ-TEg"/>
+                            <constraint firstItem="HWE-Qy-9PO" firstAttribute="trailing" secondItem="m0b-ba-NAn" secondAttribute="trailing" constant="16" id="IF4-0f-zAr"/>
+                            <constraint firstItem="m0b-ba-NAn" firstAttribute="top" secondItem="ga8-Ga-rlW" secondAttribute="bottom" constant="16" id="NFb-ik-E8f"/>
+                            <constraint firstItem="HWE-Qy-9PO" firstAttribute="bottom" secondItem="m0b-ba-NAn" secondAttribute="bottom" constant="16" id="SXv-U0-ss4"/>
+                            <constraint firstItem="HWE-Qy-9PO" firstAttribute="trailing" secondItem="ga8-Ga-rlW" secondAttribute="trailing" constant="16" id="qXY-MM-99N"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="qXY-MM-99N"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bottomCard" destination="m0b-ba-NAn" id="mMn-bl-MWW"/>
+                        <outlet property="bottomCardBottomConstraint" destination="SXv-U0-ss4" id="rgS-D9-abC"/>
+                        <outlet property="bottomCardHeightConstraint" destination="7uf-qM-qJe" id="p98-vj-YDY"/>
+                        <outlet property="bottomCardLeadingConstraint" destination="A2H-IZ-TEg" id="9M0-JE-cDX"/>
+                        <outlet property="bottomCardTrailingConstraint" destination="IF4-0f-zAr" id="MM9-at-5h1"/>
+                        <outlet property="imageView" destination="n3M-2t-9HO" id="uNv-GS-DFE"/>
+                        <outlet property="switchButton" destination="ga8-Ga-rlW" id="HRE-0C-KrZ"/>
+                        <outlet property="switchButtonLeadingConstraint" destination="3O1-i5-JTM" id="LHy-0k-JVk"/>
+                        <outlet property="switchButtonTrailingConstraint" destination="qXY-MM-99N" id="5hU-xf-kzy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FKv-us-StZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-413.04347826086962" y="130.58035714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
