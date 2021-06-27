@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BJA-pw-jbn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Present View Controller-->
+        <scene sceneID="EDc-8Y-XNT">
+            <objects>
+                <viewController id="BJA-pw-jbn" customClass="PresentViewController" customModule="SemiModalSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R6f-wR-Nce">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vH4-LS-qZZ">
+                                <rect key="frame" x="147" y="144" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Tnl-Ms-vva"/>
+                                    <constraint firstAttribute="width" constant="120" id="VpG-uL-Jgc"/>
+                                </constraints>
+                                <state key="normal" title="Show Half Modal!"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jeS-wX-Jq9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vH4-LS-qZZ" firstAttribute="top" secondItem="jeS-wX-Jq9" secondAttribute="top" constant="100" id="InJ-Gw-KhN"/>
+                            <constraint firstItem="vH4-LS-qZZ" firstAttribute="centerX" secondItem="R6f-wR-Nce" secondAttribute="centerX" id="qnV-qW-12E"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showHalfModalButton" destination="vH4-LS-qZZ" id="EVn-is-dDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYV-A7-dde" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-381" y="-22"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

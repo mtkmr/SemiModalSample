@@ -100,6 +100,7 @@ final class SemiModalAnimatorViewController: UIViewController {
 //    MARK: - lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "UIViewPropertyAnimator"
         layout()
     }
 }

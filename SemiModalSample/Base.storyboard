@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ocA-lT-gGx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Base View Controller-->
+        <scene sceneID="Ne7-Qf-U0m">
+            <objects>
+                <viewController id="ocA-lT-gGx" customClass="BaseViewController" customModule="SemiModalSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZCH-kD-bY5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Tb7-kf-tDk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvs-wX-352">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="163.5"/>
+                                        <state key="normal" title="Animation"/>
+                                        <connections>
+                                            <segue destination="ltp-SI-sLY" kind="show" id="jrd-4N-cdM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdS-Dh-yF2">
+                                        <rect key="frame" x="0.0" y="163.5" width="414" height="163.5"/>
+                                        <state key="normal" title="HalfModal"/>
+                                        <connections>
+                                            <segue destination="gj3-2M-NCB" kind="show" id="keN-TD-N0H"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-Ao-yFN">
+                                        <rect key="frame" x="0.0" y="327" width="414" height="164"/>
+                                        <state key="normal" title="UIPresentationController"/>
+                                        <connections>
+                                            <segue destination="WXV-uR-Tei" kind="show" id="tXP-mm-fiR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ik0-Py-Y6Y">
+                                        <rect key="frame" x="0.0" y="491" width="414" height="163.5"/>
+                                        <state key="normal" title="UIViewPropertyAnimator"/>
+                                        <connections>
+                                            <segue destination="57r-mI-Ocs" kind="show" id="y9P-H9-Q8D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYr-T0-LeJ">
+                                        <rect key="frame" x="0.0" y="654.5" width="414" height="163.5"/>
+                                        <state key="normal" title="SideMenu"/>
+                                        <connections>
+                                            <segue destination="kgy-Ew-Ioz" kind="show" id="Gar-RX-5C1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4nR-cq-AVy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4nR-cq-AVy" firstAttribute="bottom" secondItem="Tb7-kf-tDk" secondAttribute="bottom" id="8I5-Kg-4Vz"/>
+                            <constraint firstItem="4nR-cq-AVy" firstAttribute="trailing" secondItem="Tb7-kf-tDk" secondAttribute="trailing" id="Nh9-FF-qsp"/>
+                            <constraint firstItem="Tb7-kf-tDk" firstAttribute="top" secondItem="4nR-cq-AVy" secondAttribute="top" id="Sdk-Rw-JcI"/>
+                            <constraint firstItem="Tb7-kf-tDk" firstAttribute="leading" secondItem="4nR-cq-AVy" secondAttribute="leading" id="kbc-H7-V49"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROz-3E-XrY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="131"/>
+        </scene>
+        <!--SemiModalAnimator-->
+        <scene sceneID="dph-T8-Imq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SemiModalAnimator" id="57r-mI-Ocs" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vot-ca-MuD"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bt-04-cPn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="219"/>
+        </scene>
+        <!--Container-->
+        <scene sceneID="P56-WL-T9q">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Container" id="kgy-Ew-Ioz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="z4v-OD-ha1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sdi-88-GU9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="333"/>
+        </scene>
+        <!--Presenting-->
+        <scene sceneID="d76-NL-fcH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Presenting" id="WXV-uR-Tei" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ntd-B4-2F5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4lw-1y-rT8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="587" y="131"/>
+        </scene>
+        <!--Animation-->
+        <scene sceneID="Tcc-Eh-qY9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Animation" id="ltp-SI-sLY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5ue-Wt-ahd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUy-HD-GQa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="-145"/>
+        </scene>
+        <!--Present-->
+        <scene sceneID="BWX-Fc-iw6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Present" id="gj3-2M-NCB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ebV-As-ItU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XRc-LT-BmC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="-76"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

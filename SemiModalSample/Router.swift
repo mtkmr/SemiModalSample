@@ -15,12 +15,8 @@ final class Router {
     
     ///起動画面を表示する
     func showRoot(window: UIWindow?) {
-        guard
-            let vc = UIStoryboard(name: "Map", bundle: nil).instantiateInitialViewController() as? SemiModalAnimatorViewController
-        else {
-            return
-        }
-        let nav = UINavigationController(rootViewController: vc)
+        let baseVC = BaseViewController.makeFromStoryboard()
+        let nav = UINavigationController(rootViewController: baseVC)
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         self.window = window

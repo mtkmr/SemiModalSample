@@ -15,6 +15,32 @@
 		8CC214E226844AD7009537F9 /* SemiModalAnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC214E126844AD7009537F9 /* SemiModalAnimatorViewController.swift */; };
 		8CC214E526844B98009537F9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC214E426844B98009537F9 /* Router.swift */; };
 		8CC214FA2685F0CE009537F9 /* InstantPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC214F92685F0CE009537F9 /* InstantPanGestureRecognizer.swift */; };
+		8CC215062687710B009537F9 /* Presenting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC215052687710B009537F9 /* Presenting.storyboard */; };
+		8CC2150926877117009537F9 /* PresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2150826877117009537F9 /* PresentingViewController.swift */; };
+		8CC2150D268771F5009537F9 /* SemiModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2150C268771F5009537F9 /* SemiModal.storyboard */; };
+		8CC2151026877202009537F9 /* SemiModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2150F26877202009537F9 /* SemiModalViewController.swift */; };
+		8CC2151326877307009537F9 /* SemiModalPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2151226877307009537F9 /* SemiModalPresentationManager.swift */; };
+		8CC215162687732D009537F9 /* SemiModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC215152687732D009537F9 /* SemiModalPresentationController.swift */; };
+		8CC2151926877354009537F9 /* SemiModalDismissalAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2151826877354009537F9 /* SemiModalDismissalAnimatedTransition.swift */; };
+		8CC2151C26877367009537F9 /* SemiModalDismissalInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2151B26877367009537F9 /* SemiModalDismissalInteractiveTransition.swift */; };
+		8CC2151F26877386009537F9 /* SemiModalOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2151E26877386009537F9 /* SemiModalOverlayView.swift */; };
+		8CC2152226877391009537F9 /* SemiModalTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2152126877391009537F9 /* SemiModalTopBarView.swift */; };
+		8CC2152B26877725009537F9 /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2152A26877725009537F9 /* Base.storyboard */; };
+		8CC2152E2687776D009537F9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2152D2687776D009537F9 /* BaseViewController.swift */; };
+		8CC2153326877A94009537F9 /* HalfModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2153226877A94009537F9 /* HalfModal.storyboard */; };
+		8CC2153626877AA1009537F9 /* HalfModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2153526877AA1009537F9 /* HalfModalViewController.swift */; };
+		8CC2153926877B71009537F9 /* Present.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2153826877B71009537F9 /* Present.storyboard */; };
+		8CC2153C26877B7B009537F9 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2153B26877B7B009537F9 /* PresentViewController.swift */; };
+		8CC215492687818A009537F9 /* Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC215482687818A009537F9 /* Animation.storyboard */; };
+		8CC2154C26878196009537F9 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2154B26878196009537F9 /* AnimationViewController.swift */; };
+		8CC2155226886928009537F9 /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2155126886928009537F9 /* Container.storyboard */; };
+		8CC2155526886935009537F9 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2155426886935009537F9 /* ContainerViewController.swift */; };
+		8CC2155A26887014009537F9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2155926887014009537F9 /* MenuViewController.swift */; };
+		8CC2155D2688701D009537F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2155C2688701D009537F9 /* HomeViewController.swift */; };
+		8CC2156026888E38009537F9 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2155F26888E38009537F9 /* InfoViewController.swift */; };
+		8CC215632688B508009537F9 /* AppRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC215622688B508009537F9 /* AppRatingViewController.swift */; };
+		8CC215662688BD81009537F9 /* ShareAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC215652688BD81009537F9 /* ShareAppViewController.swift */; };
+		8CC215692688BDD4009537F9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC215682688BDD4009537F9 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +55,32 @@
 		8CC214E126844AD7009537F9 /* SemiModalAnimatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalAnimatorViewController.swift; sourceTree = "<group>"; };
 		8CC214E426844B98009537F9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		8CC214F92685F0CE009537F9 /* InstantPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		8CC215052687710B009537F9 /* Presenting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Presenting.storyboard; sourceTree = "<group>"; };
+		8CC2150826877117009537F9 /* PresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingViewController.swift; sourceTree = "<group>"; };
+		8CC2150C268771F5009537F9 /* SemiModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SemiModal.storyboard; sourceTree = "<group>"; };
+		8CC2150F26877202009537F9 /* SemiModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalViewController.swift; sourceTree = "<group>"; };
+		8CC2151226877307009537F9 /* SemiModalPresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalPresentationManager.swift; sourceTree = "<group>"; };
+		8CC215152687732D009537F9 /* SemiModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalPresentationController.swift; sourceTree = "<group>"; };
+		8CC2151826877354009537F9 /* SemiModalDismissalAnimatedTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalDismissalAnimatedTransition.swift; sourceTree = "<group>"; };
+		8CC2151B26877367009537F9 /* SemiModalDismissalInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalDismissalInteractiveTransition.swift; sourceTree = "<group>"; };
+		8CC2151E26877386009537F9 /* SemiModalOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalOverlayView.swift; sourceTree = "<group>"; };
+		8CC2152126877391009537F9 /* SemiModalTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalTopBarView.swift; sourceTree = "<group>"; };
+		8CC2152A26877725009537F9 /* Base.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		8CC2152D2687776D009537F9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8CC2153226877A94009537F9 /* HalfModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HalfModal.storyboard; sourceTree = "<group>"; };
+		8CC2153526877AA1009537F9 /* HalfModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalViewController.swift; sourceTree = "<group>"; };
+		8CC2153826877B71009537F9 /* Present.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Present.storyboard; sourceTree = "<group>"; };
+		8CC2153B26877B7B009537F9 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		8CC215482687818A009537F9 /* Animation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Animation.storyboard; sourceTree = "<group>"; };
+		8CC2154B26878196009537F9 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		8CC2155126886928009537F9 /* Container.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Container.storyboard; sourceTree = "<group>"; };
+		8CC2155426886935009537F9 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		8CC2155926887014009537F9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8CC2155C2688701D009537F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8CC2155F26888E38009537F9 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8CC215622688B508009537F9 /* AppRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRatingViewController.swift; sourceTree = "<group>"; };
+		8CC215652688BD81009537F9 /* ShareAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppViewController.swift; sourceTree = "<group>"; };
+		8CC215682688BDD4009537F9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F87B34481DECC58C24D63E5F /* Pods-SemiModalSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemiModalSample.debug.xcconfig"; path = "Target Support Files/Pods-SemiModalSample/Pods-SemiModalSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,18 +138,16 @@
 				8CC214CD268449FA009537F9 /* Assets.xcassets */,
 				8CC214CF268449FA009537F9 /* LaunchScreen.storyboard */,
 				8CC214D2268449FA009537F9 /* Info.plist */,
+				8CC214E426844B98009537F9 /* Router.swift */,
+				8CC2152A26877725009537F9 /* Base.storyboard */,
+				8CC2152D2687776D009537F9 /* BaseViewController.swift */,
 				8CC214F226846D50009537F9 /* SemiModalAnimator */,
-				8CC214EE26846D40009537F9 /* Router */,
+				8CC2150326876F89009537F9 /* SemiModalPresentation */,
+				8CC2154626878114009537F9 /* HalfModal */,
+				8CC2154E26878276009537F9 /* Animation */,
+				8CC215572688696A009537F9 /* SideMenu */,
 			);
 			path = SemiModalSample;
-			sourceTree = "<group>";
-		};
-		8CC214EE26846D40009537F9 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				8CC214E426844B98009537F9 /* Router.swift */,
-			);
-			path = Router;
 			sourceTree = "<group>";
 		};
 		8CC214F226846D50009537F9 /* SemiModalAnimator */ = {
@@ -108,6 +158,98 @@
 				8CC214F92685F0CE009537F9 /* InstantPanGestureRecognizer.swift */,
 			);
 			path = SemiModalAnimator;
+			sourceTree = "<group>";
+		};
+		8CC2150326876F89009537F9 /* SemiModalPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				8CC21504268770AA009537F9 /* Presenting */,
+				8CC2150B268771E5009537F9 /* SemiModal */,
+				8CC2152826877667009537F9 /* PresentationManager */,
+			);
+			path = SemiModalPresentation;
+			sourceTree = "<group>";
+		};
+		8CC21504268770AA009537F9 /* Presenting */ = {
+			isa = PBXGroup;
+			children = (
+				8CC215052687710B009537F9 /* Presenting.storyboard */,
+				8CC2150826877117009537F9 /* PresentingViewController.swift */,
+			);
+			path = Presenting;
+			sourceTree = "<group>";
+		};
+		8CC2150B268771E5009537F9 /* SemiModal */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2150C268771F5009537F9 /* SemiModal.storyboard */,
+				8CC2150F26877202009537F9 /* SemiModalViewController.swift */,
+			);
+			path = SemiModal;
+			sourceTree = "<group>";
+		};
+		8CC2152826877667009537F9 /* PresentationManager */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2151226877307009537F9 /* SemiModalPresentationManager.swift */,
+				8CC215152687732D009537F9 /* SemiModalPresentationController.swift */,
+				8CC2151826877354009537F9 /* SemiModalDismissalAnimatedTransition.swift */,
+				8CC2151B26877367009537F9 /* SemiModalDismissalInteractiveTransition.swift */,
+				8CC2151E26877386009537F9 /* SemiModalOverlayView.swift */,
+				8CC2152126877391009537F9 /* SemiModalTopBarView.swift */,
+			);
+			path = PresentationManager;
+			sourceTree = "<group>";
+		};
+		8CC21543268780FD009537F9 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2153826877B71009537F9 /* Present.storyboard */,
+				8CC2153B26877B7B009537F9 /* PresentViewController.swift */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		8CC2154526878105009537F9 /* HalfModal */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2153226877A94009537F9 /* HalfModal.storyboard */,
+				8CC2153526877AA1009537F9 /* HalfModalViewController.swift */,
+			);
+			path = HalfModal;
+			sourceTree = "<group>";
+		};
+		8CC2154626878114009537F9 /* HalfModal */ = {
+			isa = PBXGroup;
+			children = (
+				8CC21543268780FD009537F9 /* Present */,
+				8CC2154526878105009537F9 /* HalfModal */,
+			);
+			path = HalfModal;
+			sourceTree = "<group>";
+		};
+		8CC2154E26878276009537F9 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8CC215482687818A009537F9 /* Animation.storyboard */,
+				8CC2154B26878196009537F9 /* AnimationViewController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		8CC215572688696A009537F9 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2155126886928009537F9 /* Container.storyboard */,
+				8CC2155426886935009537F9 /* ContainerViewController.swift */,
+				8CC2155C2688701D009537F9 /* HomeViewController.swift */,
+				8CC2155926887014009537F9 /* MenuViewController.swift */,
+				8CC2155F26888E38009537F9 /* InfoViewController.swift */,
+				8CC215622688B508009537F9 /* AppRatingViewController.swift */,
+				8CC215652688BD81009537F9 /* ShareAppViewController.swift */,
+				8CC215682688BDD4009537F9 /* SettingsViewController.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +311,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC215492687818A009537F9 /* Animation.storyboard in Resources */,
 				8CC214D1268449FA009537F9 /* LaunchScreen.storyboard in Resources */,
+				8CC2152B26877725009537F9 /* Base.storyboard in Resources */,
 				8CC214CE268449FA009537F9 /* Assets.xcassets in Resources */,
+				8CC2155226886928009537F9 /* Container.storyboard in Resources */,
+				8CC2153926877B71009537F9 /* Present.storyboard in Resources */,
+				8CC2150D268771F5009537F9 /* SemiModal.storyboard in Resources */,
 				8CC214DF26844ACA009537F9 /* SemiModalAnimator.storyboard in Resources */,
+				8CC2153326877A94009537F9 /* HalfModal.storyboard in Resources */,
+				8CC215062687710B009537F9 /* Presenting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +373,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC2152E2687776D009537F9 /* BaseViewController.swift in Sources */,
+				8CC2151026877202009537F9 /* SemiModalViewController.swift in Sources */,
+				8CC2155D2688701D009537F9 /* HomeViewController.swift in Sources */,
+				8CC2151C26877367009537F9 /* SemiModalDismissalInteractiveTransition.swift in Sources */,
+				8CC215632688B508009537F9 /* AppRatingViewController.swift in Sources */,
 				8CC214C5268449F9009537F9 /* AppDelegate.swift in Sources */,
+				8CC2151326877307009537F9 /* SemiModalPresentationManager.swift in Sources */,
+				8CC215162687732D009537F9 /* SemiModalPresentationController.swift in Sources */,
 				8CC214E526844B98009537F9 /* Router.swift in Sources */,
+				8CC2154C26878196009537F9 /* AnimationViewController.swift in Sources */,
 				8CC214E226844AD7009537F9 /* SemiModalAnimatorViewController.swift in Sources */,
+				8CC2151F26877386009537F9 /* SemiModalOverlayView.swift in Sources */,
+				8CC2150926877117009537F9 /* PresentingViewController.swift in Sources */,
+				8CC2155526886935009537F9 /* ContainerViewController.swift in Sources */,
+				8CC215662688BD81009537F9 /* ShareAppViewController.swift in Sources */,
+				8CC215692688BDD4009537F9 /* SettingsViewController.swift in Sources */,
 				8CC214FA2685F0CE009537F9 /* InstantPanGestureRecognizer.swift in Sources */,
+				8CC2156026888E38009537F9 /* InfoViewController.swift in Sources */,
+				8CC2155A26887014009537F9 /* MenuViewController.swift in Sources */,
+				8CC2153626877AA1009537F9 /* HalfModalViewController.swift in Sources */,
+				8CC2152226877391009537F9 /* SemiModalTopBarView.swift in Sources */,
+				8CC2153C26877B7B009537F9 /* PresentViewController.swift in Sources */,
+				8CC2151926877354009537F9 /* SemiModalDismissalAnimatedTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
