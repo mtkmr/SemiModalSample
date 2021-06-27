@@ -117,6 +117,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8C4BC07C268935AE0022D660 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2156C268926FE009537F9 /* BottomSheet.storyboard */,
+				8CC2156F2689270C009537F9 /* BottomSheetViewController.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		8CC214B8268449F9009537F9 = {
 			isa = PBXGroup;
 			children = (
@@ -150,8 +159,7 @@
 				8CC2154626878114009537F9 /* HalfModal */,
 				8CC2154E26878276009537F9 /* Animation */,
 				8CC215572688696A009537F9 /* SideMenu */,
-				8CC2156C268926FE009537F9 /* BottomSheet.storyboard */,
-				8CC2156F2689270C009537F9 /* BottomSheetViewController.swift */,
+				8C4BC07C268935AE0022D660 /* BottomSheet */,
 			);
 			path = SemiModalSample;
 			sourceTree = "<group>";
