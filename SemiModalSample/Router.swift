@@ -22,6 +22,10 @@ final class Router {
         self.window = window
     }
     
+    func returnRoot(vc: UIViewController) {
+        vc.navigationController?.popViewController(animated: true)
+    }
+    
 }
 
 private extension Router {

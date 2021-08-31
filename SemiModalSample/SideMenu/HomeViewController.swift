@@ -9,6 +9,7 @@ import UIKit
 
 protocol HomeViewControllerDelegate: AnyObject {
     func didTapMenuButton()
+    func didTapCloseButton()
     func didTapOverlay()
 }
 
@@ -35,6 +36,10 @@ class HomeViewController: UIViewController {
                                                            style: .done,
                                                            target: self,
                                                            action: #selector(didTapMenuButton(_:)))
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close,
+                                                            target: self,
+                                                            action: #selector(didTapCloseButton(_:)))
     }
     
     private func setupView() {
@@ -47,6 +52,10 @@ class HomeViewController: UIViewController {
     
     @objc func didTapMenuButton(_ sender: UIBarButtonItem) {
         delegate?.didTapMenuButton()
+    }
+    
+    @objc func didTapCloseButton(_ sender: UIBarButtonItem) {
+        delegate?.didTapCloseButton()
     }
     
     @objc func didTappedOverlay(_ sender: UIButton) {

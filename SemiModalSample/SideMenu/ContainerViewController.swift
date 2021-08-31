@@ -65,6 +65,10 @@ extension ContainerViewController: HomeViewControllerDelegate {
         toggleMenu(completion: nil)
     }
     
+    func didTapCloseButton() {
+        Router.shared.returnRoot(vc: self)
+    }
+    
     func didTapOverlay() {
         toggleMenu(completion: nil)
     }
