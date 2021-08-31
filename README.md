@@ -1,6 +1,6 @@
 # SemiModalSample
 
-Scratch different semi modal animations
+Scratch and Playing with a variety of semi modal animations
 
 # Demo
 
